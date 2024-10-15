@@ -7,13 +7,13 @@ const App = () => {
         <View style={{ flexDirection: 'row' }}>
             <Text style={{ color: '#606770', fontSize: 14, fontWeight: '600' }}>English (US) </Text>
             {/* Arrow down icon */}
-            <Image source={require('../assets/images/arrow-down.png')} style={{ width: 15, height: 15, }} />
+            <Image source={require('../../assets/images/arrow-down.png')} style={{ width: 15, height: 15, }} />
         </View>
         {/* Facebook logo icon */}
-        <Image source={require('../assets/images/facebook_logo.png')} style={styles.facebook_image}/>
+        <Image source={require('../../assets/images/facebook_logo.png')} style={styles.facebook_image}/>
 
         {/* Main character image */}
-        <Image source={require('../assets/images/example.jpg')} style={styles.character_image}/>
+        <Image source={require('../../assets/images/example.jpg')} style={styles.character_image}/>
 
         <Text style={{ fontSize: 22, fontWeight: 'bold', paddingTop: 10 }}>Akintola Jacob</Text>
         <View></View>
@@ -28,7 +28,7 @@ const App = () => {
 
         {/* Meta logo */}
         <View style={{ flexDirection: 'row', alignItems: 'center' }}>
-            <Image source={require('../assets/images/meta.png')} style={[styles.meta, {width: 20, height: 20}]}/>
+            <Image source={require('../../assets/images/meta.png')} style={[styles.meta, {width: 20, height: 20}]}/>
             <Text style={styles.meta}>Meta</Text>
         </View>
         
